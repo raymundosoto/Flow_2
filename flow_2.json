@@ -67,8 +67,46 @@
         "y": 180,
         "wires": [
             [
-                "4af4dc8ad726f7d2"
+                "4af4dc8ad726f7d2",
+                "162def2bfdcc0ab4"
             ]
         ]
+    },
+    {
+        "id": "162def2bfdcc0ab4",
+        "type": "ui_text",
+        "z": "c94bdeeaeb34b039",
+        "group": "9708cec3380baac4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "La hora es:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 730,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "9708cec3380baac4",
+        "type": "ui_group",
+        "name": "Hora",
+        "tab": "e2775a5aa384cbba",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e2775a5aa384cbba",
+        "type": "ui_tab",
+        "name": "Hora del sistema",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
     }
 ]
